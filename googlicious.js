@@ -18,7 +18,7 @@
  */
 
 (function (global) {
-  var head   = document.getElementsByTagName('head')[0];
+  var head = document.getElementsByTagName('head')[0];
 
   if (!head) {
     head = document.createElement('head');
