@@ -89,7 +89,7 @@
     var query = document.getElementById('searchquery').value;
 
     var googleScript = document.createElement('script');
-    googleScript.src = 'http://ajax.googleapis.com/ajax/services/search/web?v=1.0&callback=processGoogle&q=' + query;
+    googleScript.src = 'http://ajax.googleapis.com/ajax/services/search/web?v=1.0&callback=processGoogle&rsz=large&q=' + query;
     head.appendChild(googleScript);
 
     var deliciousScript = document.createElement('script');
