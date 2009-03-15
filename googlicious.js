@@ -14,7 +14,7 @@
  *
  * @author   Alex Rabarts (JavaScript)
  * @author   Guy King (CSS)
- * @version  0.1
+ * @version  0.1.1
  */
 
 (function (global) {
